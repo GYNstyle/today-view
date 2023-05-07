@@ -23,7 +23,7 @@ const defaultView: TodayView = {
   img: defaultImage,
   desc: (
     <span>
-      This is morning view from ShenZhen. The bridge in is called{" "}
+      This is a morning view from ShenZhen. The bridge is called{" "}
       <a href="https://zh.wikipedia.org/wiki/%E6%B7%B1%E5%9C%B3%E7%81%A3%E5%85%AC%E8%B7%AF%E5%A4%A7%E6%A9%8B">
         Shenzhen Bay Bridge
       </a>
