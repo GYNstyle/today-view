@@ -46,14 +46,14 @@ const TodayView = () => {
   // Get today's view
   useEffect(() => {}, []);
   return (
-    <div className="mt-5 mb-5 flex">
+    <div className="mt-5 mb-5 todayView">
       <Image
-        className="rounded-3xl shadow-2xl"
+        className="mainPicture rounded-3xl shadow-2xl"
         alt={"Today Picture"}
         src={todayView.img}
         width={450}
       />
-      <div className="pl-10 flex flex-col w-80">
+      <div className="textContainer flex flex-col w-80">
         <div className="pb-10 flex flex-col">
           <span className="text-3xl pb-2">The Story</span>
           <span>{todayView.desc}</span>
