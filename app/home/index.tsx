@@ -3,7 +3,10 @@ import TodayView from "../today";
 const HomePage = () => {
   return (
     <div>
-      <h1 className="text-1xl">Today&apos;s View - Take me to see the world</h1>
+      <div className="homeTitle">
+        <span className="text-2xl levelOneTitle">Today&apos;s View</span>
+        <span className="text-slate-300">Take me to see the world</span>
+      </div>
       <TodayView />
     </div>
   );

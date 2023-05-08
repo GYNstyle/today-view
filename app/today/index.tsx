@@ -52,10 +52,13 @@ const TodayView = () => {
         alt={"Today Picture"}
         src={todayView.img}
         width={450}
+        onClick={() => {
+          window.open(todayView.location.url);
+        }}
       />
-      <div className="textContainer flex flex-col w-80">
+      <div className="todayViewImageContainer flex flex-col w-80">
         <div className="pb-10 flex flex-col">
-          <span className="text-3xl pb-2">The Story</span>
+          <span className="text-2xl pb-2">The Story</span>
           <span>{todayView.desc}</span>
         </div>
         <span className="pb-2">
