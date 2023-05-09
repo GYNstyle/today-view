@@ -1,6 +1,8 @@
 import TodayView from "../today";
+import dayjs from "dayjs";
 
 const HomePage = () => {
+  const date = dayjs().format("YYYY-MM-DD");
   return (
     <div>
       <div className="homeTitle">
@@ -8,6 +10,7 @@ const HomePage = () => {
           &#127958; Today&apos;s View
         </span>
         <span className="text-slate-300">Take me to see the world</span>
+        {/* <span>{date}</span> */}
       </div>
       <TodayView />
     </div>

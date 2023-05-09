@@ -1,0 +1,12 @@
+.todayView {
+  background-color: #ffffff;
+  background-image: url("../bg.png");
+  background-position: 0 0;
+  padding: 30px;
+}
+.mainPicture {
+  height: fit-content;
+  width: 60%;
+  max-width: 450px;
+  cursor: pointer;
+}

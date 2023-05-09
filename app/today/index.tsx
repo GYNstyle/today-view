@@ -2,6 +2,7 @@
 import Image, { StaticImageData } from "next/image";
 import { useEffect, useState, ReactNode } from "react";
 import defaultImage from "./sz.png";
+import "./today.css";
 
 type UserType = {
   id: string;
